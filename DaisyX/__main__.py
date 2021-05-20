@@ -63,11 +63,11 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Halo Pantek, Aku [Guard Fckg](https://telegra.ph/file/86492475a12d1a1af5d58.jpg)
+Halo Pantek, Aku [Zeus☇](https://telegra.ph/file/2fe228f5fdc0f2fd53b5e.jpg)
 
-Aku Official Bot Group Fvckg Partner untuk membasmi Orang-Orang Tolol.
+Aku Official Bot Group Olympus untuk membasmi Anak-anak bodoh nan Biadap.
 
-✪Baca Dulu Info Biar Paham Pantek✪ 
+✪Baca Dulu Info Biar Paham✪ 
 """
 
 buttons = [
@@ -84,7 +84,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Mol", url="t.me/Betterthaanhecan"
+            text="Olympus", url="t.me/olympuus"
         ),
     ],
 ]
@@ -365,8 +365,8 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Halo Lagi Pantek!  Namaku {dispatcher.bot.first_name} 😍 \n\nAku Adalah Bot Group Management Yang Dimanage oleh [Mol](https://t.me/betterthaanhecan) .* "
-            f"\n\n 🔥 Join [RuangPublik](https://t.me/ruangpublikk) Untuk Support Channel Owner {dispatcher.bot.first_name} 🔥"
+            text=f"*😍 Halo Lagi Pantek!  Namaku {dispatcher.bot.first_name} 😍 \n\nAku Adalah Bot Group Management Yang Dimanage oleh @Betterthaanhecan .* "
+            f"\n\n 🔥 Join [Olympus](https://t.me/olympuus) Untuk Support Channel Owner {dispatcher.bot.first_name} 🔥"
             f"\n\n Aku punya banyak fungsi seperti Flood Control, Warn, Ban dan fungsi lain nya untuk mencegah orang-orang tolol merusuh diGroup mu."
             f"\n\nCukup Jadikan Aku Admin dan Kita Bantai Orang Goblok Di Telegram"
             f"\n\n👇 Cukup tekan tombol dibawah untuk lebih banyak informasi 👇",
