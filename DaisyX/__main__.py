@@ -63,9 +63,9 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Halo Pantek, Aku [Zeus☇](https://telegra.ph/file/2fe228f5fdc0f2fd53b5e.jpg)
+Halo Pantek, Aku [Ptolemaios](https://telegra.ph/file/4ac6452d8a4f9296ed5b9.jpg)
 
-Aku Official Bot Group Olympus untuk membasmi Anak-anak bodoh nan Biadap.
+Aku Official Bot Group Berenice untuk membasmi Anak-anak katro.
 
 ✪Baca Dulu Info Biar Paham✪ 
 """
@@ -79,19 +79,19 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Add Reevas Ke Group🖕", url="t.me/fvcking13bot?startgroup=true"
+            text="Music", url="t.me/ipinUpclouds"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Olympus", url="t.me/olympuus"
+            text="Berenice", url="t.me/joinajaduluu"
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Daftar Command :* [🖕](https://telegra.ph/file/9238385798316f737a0eb.jpg)
+*Daftar Command :* [🖕](https://telegra.ph/file/d99ca1a45f24abfed8d64.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -365,8 +365,8 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Halo Lagi Pantek!  Namaku {dispatcher.bot.first_name} 😍 \n\nAku Adalah Bot Group Management Yang Dimanage oleh @Betterthaanhecan .* "
-            f"\n\n 🔥 Join [Olympus](https://t.me/olympuus) Untuk Support Channel Owner {dispatcher.bot.first_name} 🔥"
+            text=f"*😍 Halo Lagi Pantek!  Namaku {dispatcher.bot.first_name} 😍 \n\nManage by @ygtagbayar.* "
+            f"\n\n 🔥 Join [Berenice](https://t.me/joinajaduluu) Untuk Support Channel Owner {dispatcher.bot.first_name} 🔥"
             f"\n\n Aku punya banyak fungsi seperti Flood Control, Warn, Ban dan fungsi lain nya untuk mencegah orang-orang tolol merusuh diGroup mu."
             f"\n\nCukup Jadikan Aku Admin dan Kita Bantai Orang Goblok Di Telegram"
             f"\n\n👇 Cukup tekan tombol dibawah untuk lebih banyak informasi 👇",
@@ -403,7 +403,7 @@ def DaisyX_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nTambakan {dispatcher.bot.first_name} Ke Groupmu [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) dan pilih Groupmu. \n"
-            f"\n\nDapatkan info tentang bot {dispatcher.bot.first_name} Dengan Pc Kontak [Mol](https://t.me/Betterthaanhecan).\n"
+            f"\n\nDapatkan info tentang bot {dispatcher.bot.first_name} Dengan Pc Kontak [Ipin](https://t.me/ygtagbayar).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
