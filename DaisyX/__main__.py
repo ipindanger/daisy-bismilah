@@ -365,7 +365,7 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Halo Lagi Pantek!  Namaku {dispatcher.bot.first_name} 😍 \n\nManage by @ygtagbayar.* "
+            text=f"*😍 Halo Lagi Pantek!  Namaku {dispatcher.bot.first_name} 😍 \n\nManage by @alreadyhavenovi .* "
             f"\n\n 🔥 Join [Berenice](https://t.me/joinajaduluu) Untuk Support Channel Owner {dispatcher.bot.first_name} 🔥"
             f"\n\n Aku punya banyak fungsi seperti Flood Control, Warn, Ban dan fungsi lain nya untuk mencegah orang-orang tolol merusuh diGroup mu."
             f"\n\nCukup Jadikan Aku Admin dan Aku akan menghiasi Group Chat kalian"
