@@ -403,7 +403,7 @@ def DaisyX_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nTambakan {dispatcher.bot.first_name} Ke Groupmu [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) dan pilih Groupmu. \n"
-            f"\n\nDapatkan info tentang bot {dispatcher.bot.first_name} Dengan Pc Kontak [Ipin](https://t.me/ygtagbayar).\n"
+            f"\n\nDapatkan info tentang bot {dispatcher.bot.first_name} Dengan Pc Kontak [Ipin](https://t.me/alreadyhavenovi).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
