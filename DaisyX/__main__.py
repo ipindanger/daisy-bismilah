@@ -63,19 +63,19 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Halo Pantek, Aku [Ptolemaios](https://telegra.ph/file/4ac6452d8a4f9296ed5b9.jpg)
+Halo gengs, Gw [Ptolemaios](https://telegra.ph/file/4ac6452d8a4f9296ed5b9.jpg)
 
-Aku Official Bot Group Berenice untuk membasmi Anak-anak katro.
+Aku Official Bot Group Manage untuk membasmi Anak-anak katro.
 
 ✪Baca Dulu Info Biar Paham✪ 
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),    
+        InlineKeyboardButton(text=" INFO ", callback_data="aboutmanu_"),    
     ],
     [
-        InlineKeyboardButton(text="📞 Help & Commands 📞", callback_data="help_back"),
+        InlineKeyboardButton(text=" Help & Commands ", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
@@ -84,7 +84,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Berenice", url="t.me/joinajaduluu"
+            text="Support", url="t.me/othersideofnopi"
         ),
     ],
 ]
@@ -365,10 +365,10 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Halo Lagi Pantek!  Namaku {dispatcher.bot.first_name} 😍 \n\nManage by @alreadyhavenovi .* "
-            f"\n\n 🔥 Join [Berenice](https://t.me/joinajaduluu) Untuk Support Channel Owner {dispatcher.bot.first_name} 🔥"
-            f"\n\n Aku punya banyak fungsi seperti Flood Control, Warn, Ban dan fungsi lain nya untuk mencegah orang-orang tolol merusuh diGroup mu."
-            f"\n\nCukup Jadikan Aku Admin dan Aku akan menghiasi Group Chat kalian"
+            text=f"*Halo lagi gengs! jumpa lagi ama Gw {dispatcher.bot.first_name}  \n\nManage by @alreadyhavenovi .* "
+            f"\n\n 🔥 Support [Channel](https://t.me/othersideofnopi) Untuk Support Channel Owner {dispatcher.bot.first_name} 🔥"
+            f"\n\n Gw punya banyak fungsi seperti Flood Control, Warn, Ban dan fungsi lain nya untuk mencegah orang-orang tolol merusuh diGroup mu."
+            f"\n\nCukup Jadikan Gw Admin dan Gw akan menghiasi Group Chat kalian"
             f"\n\n👇 Cukup tekan tombol dibawah untuk lebih banyak informasi 👇",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -384,7 +384,7 @@ def DaisyX_about_callback(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="❔Help & Commands", callback_data="help_back"
+                            text="Help & Commands", callback_data="help_back"
                         )
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
@@ -809,7 +809,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I am now online!")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Hoamss..!")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
