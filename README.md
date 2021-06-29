@@ -4,7 +4,7 @@
 ## OLD version of @DaisyXBot
 # 2 Branches available. this is main brach. swith advanced for all fetures
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/molana062/Daisy-x.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ipindanger/daisymanage.git)
 
 
 ## New version Avaiilable on Telegram as [@DaisyXBot](https://t.me/daisyxbot)
@@ -32,7 +32,7 @@ This repo was just revamped to suit an Anime-centric community. All original cre
 
 All other credits mentioned on top of scripts
 
-Should any be missing kindly let us know at [Daisy Support](https://t.me/DaisySupport_Official) or simply submit a pull request on the readme.
+Should any be missing kindly let us know at [Support](https://t.me/alreadyhavenovi) or simply submit a pull request on the readme.
 
 ## Daisy X the telegram Bot Project
 The Advanced Branch (For PRO's)
