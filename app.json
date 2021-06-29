@@ -1,6 +1,6 @@
 {
-      "name": "Daisy X",
-      "description": "An Anime themed Telegram group management bot.",
+      "name": "Ptolemaios",
+      "description": "Dilahirkan dan Diurus oleh ipin.",
       "keywords": [
          "telegram",
          "anime",
@@ -8,7 +8,7 @@
          "manager",
          "DaisyX"
       ],   
-   "repository": "https://github.com/molana062/Daisy-x",
+   "repository": "https://github.com/ipindanger/daisymanage",
    "addons": [
       {
          "options": {
@@ -53,12 +53,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "InukaAsith"
+         "value": "alreadyhavenopi"
       },
       "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
+         "description": "Your Telegram support chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "MyAwesomeSupportGroupGoesHere"
+         "value": "alreadyhavenovi"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
