@@ -63,11 +63,11 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Halo gengs, Gw [Ptolemaios](https://telegra.ph/file/4ac6452d8a4f9296ed5b9.jpg)
+Halo kawan, aku [Asena](https://telegra.ph/file/4d7cfb2b8e9aaf554e684.jpg)
 
-Aku Official Bot Group Manage untuk membasmi Anak-anak katro.
+Aku Official Bot Manage di Group yang berisikan wanita menawan dan pria tampan.
 
-✪Baca Dulu Info Biar Paham✪ 
+✪Baca dan pahami info dibawah suapya anda tidak terlihat katro✪ 
 """
 
 buttons = [
@@ -79,34 +79,34 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Music", url="t.me/ipinUpcloud"
+            text="Group", url="t.me/BELIKEAESTETIC"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Support", url="t.me/othersideofnopi"
+            text="Channel", url="t.me/othersideofnopi"
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Daftar Command :* [🖕](https://telegra.ph/file/d99ca1a45f24abfed8d64.jpg)
-✪ /start: Starts me! You've probably already used this.
-✪ /help: Click this, I'll let you know about myself!
-✪ /donate: You can support my creater using this command.
+*Daftar Command [:](https://telegra.ph/file/d99ca1a45f24abfed8d64.jpg)
+✪ /start: Sudahlah, kamu sudah  berada di chat.
+✪ /help: Click ini, aku akan memberitahu tentang aku kepadamu.
+✪ /donate: Donate string yang berguna untuk membantu Creator Bot ini.
 ✪ /settings: 
-   ◔ in PM: will send you your settings for all supported modules.
-   ◔ in a Group: will redirect you to pm, with all that chat's settings.
+   ◔ in PM: Aku akan mengirimkan semua setting dan perintah.
+   ◔ in a Group: Akan langsung mengantarmu ke PM, dengan semua setting yang ads.
 """.format(
     dispatcher.bot.first_name,
-    "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
+    "" if not ALLOW_EXCL else "\nSemua perintah bisa digunakan dengan / atau !.\n",
 )
 
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-You can donate to the original writer's of the Base code,
-Support them  [Inuka](t.me/InukaASiTH),[Jason](t.me/imjanindu),"""
+DONATE_STRING = """Heya, sangat senang anda telah berbaik hati!
+Terima kasih telah bersedia donasi, aku akan menyampaikan kepada mereka,
+[Nath](t.me/alreadyhavenovi),[Mol](t.me/Betterthaanhecan),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "Aku masih terjaga!\n<b>Belum tertidur sejak:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -365,10 +365,10 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*Halo lagi gengs! jumpa lagi ama Gw {dispatcher.bot.first_name}  \n\nManage by @alreadyhavenovi .* "
-            f"\n\n 🔥 Support [Channel](https://t.me/othersideofnopi) Untuk Support Channel Owner {dispatcher.bot.first_name} 🔥"
-            f"\n\n Gw punya banyak fungsi seperti Flood Control, Warn, Ban dan fungsi lain nya untuk mencegah orang-orang tolol merusuh diGroup mu."
-            f"\n\nCukup Jadikan Gw Admin dan Gw akan menghiasi Group Chat kalian"
+            text=f"*Halo lagi senua! jumpa lagi ama Aku {dispatcher.bot.first_name}  \n\n diasuh oleh @alreadyhavenovi .* "
+            f"\n\n 🔥 Support [Channel](https://t.me/othersideofnopi) Untuk Support Channel {dispatcher.bot.first_name} 🔥"
+            f"\n\n Aku punya banyak fungsi seperti Flood Control, Warn, Ban dan fungsi lain nya untuk mencegah orang-orang tolol merusuh diGroup mu."
+            f"\n\nCukup Jadikan Aku Admin dan Aku akan menghiasi Group Chat kalian"
             f"\n\n👇 Cukup tekan tombol dibawah untuk lebih banyak informasi 👇",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
