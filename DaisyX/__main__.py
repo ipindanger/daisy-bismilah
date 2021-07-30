@@ -79,7 +79,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Group", url="t.me/BELIKEAESTETIC"
+            text="Group", url="t.me/thequerenciaa"
         ),
     ],
     [
