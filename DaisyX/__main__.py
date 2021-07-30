@@ -91,7 +91,7 @@ buttons = [
 
 
 HELP_STRINGS = f"""
-*Daftar Command [:](https://telegra.ph/file/d99ca1a45f24abfed8d64.jpg)
+*Daftar Command : [/](https://telegra.ph/file/d99ca1a45f24abfed8d64.jpg)
 ✪ /start: Sudahlah, kamu sudah  berada di chat.
 ✪ /help: Click ini, aku akan memberitahu tentang aku kepadamu.
 ✪ /donate: Donate string yang berguna untuk membantu Creator Bot ini.
