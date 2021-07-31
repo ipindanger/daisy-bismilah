@@ -106,7 +106,8 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, sangat senang anda telah berbaik hati!
 Terima kasih telah bersedia donasi, aku akan menyampaikan kepada mereka,
-[Nath](t.me/alreadyhavenovi),[Mol](t.me/Betterthaanhecan),"""
+[Nath](t.me/alreadyhavenovi),[Mol](t.me/Betterthaanhecan),
+Dan pemilik original dari DaisyX [Inuka](t.me/InukaASiTH),[Jason](t.me/imjanindu),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
